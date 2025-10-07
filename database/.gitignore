@@ -1,0 +1,33 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno
+.env
+.env.*
+
+# Bases de datos locales
+*.sqlite*
+
+# Dependencias
+/vendor/
+node_modules/
+
+# Archivos de compilación y caché
+/bootstrap/cache/
+storage/*.key
+storage/app/public/
+storage/debugbar/
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+storage/logs/*
+
+# IDE y editor
+.vscode/
+.idea/
+*.log
+
+# Otros
+npm-debug.log
+composer.lock
